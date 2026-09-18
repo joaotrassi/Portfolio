@@ -42,6 +42,16 @@ body {
     transition: .2s;
 }
 
+h2.titulo{
+    color: #000000;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #fdd803;
+}
+
 /* ESTILO DO CABEÇALHO */
 header{
     padding: 40px 4%;
@@ -98,7 +108,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site h1{
-    color: #020202;
+    color: #000000;
     font-size: 42px;
     line-height: 40px;
     font-weight: 550;
@@ -111,7 +121,7 @@ section.topo-do-site .flex{
 
 .topo-do-site .txt-topo-site p{
     color: #000000;
-    margin: 40px 0;
+    margin: 30px 0;
 }
 
 .img-topo-site img {
@@ -119,4 +129,39 @@ section.topo-do-site .flex{
     height: 400px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+/* ESTILO DAS HAB TECNICAS */
+section.hab-tecnicas{
+    padding: 40px 4%;
+}
+
+section.hab-tecnicas .flex{
+    gap: 60px;
+}
+
+.hab-tecnicas .habilidades-box{
+    color: #000000;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+    flex: 1;
+    min-width: 280px;
+}
+
+.hab-tecnicas .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #fdd70375;
+}
+
+.hab-tecnicas .habilidades-box i{
+    font-size: 70px;
+    color: #fdd803;
+}
+
+.hab-tecnicas .habilidades-box h3{
+    font-size: 22px;
+    margin: 15px 0;
+    line-height: 30px;
 }
