@@ -232,15 +232,15 @@ section.projetos .flex {
   width: 360px;
   height: 460px;
   background-size: cover;
-  background-position: 0% 100%;
-  transition: 0.8s;
+  background-position: 0% 50%;
+  transition: 1.8s;
   cursor: pointer;
   border-radius: 40px;
   position: relative;
 }
 
 .img-port:hover {
-  background-position: 0% 100%;
+  background-position: 100% 50%;
 }
 
 .overlay {
@@ -261,6 +261,6 @@ section.projetos .flex {
   transition: 0.5s;
 }
 
-.overlay:hover {
+.img-port:hover .overlay{
   opacity: 1;
 }
