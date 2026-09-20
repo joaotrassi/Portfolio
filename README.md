@@ -7,4 +7,4 @@ O projeto se refere ao portfólio profissional do aluno e foram usados tutoriais
 
 https://youtu.be/3v2RUozpDVw?si=P8sTZtfICdtfmEC5
 
-Ainda não foram linkados botões ou informações de contato!
+Ainda não foram linkados botões de contato! (o email é real porém não direciona para lugar nenhum)
