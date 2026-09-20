@@ -51,7 +51,8 @@ h2.titulo span {
   color: #fdd803;
 }
 
-button:hover, form .btn-enviar input:hover{
+button:hover,
+form .btn-enviar input:hover {
   box-shadow: 0px 0px 8px #fdd703b7;
   transform: scale(1.05);
 }
@@ -261,17 +262,17 @@ section.projetos .flex {
   transition: 0.5s;
 }
 
-.img-port:hover .overlay{
+.img-port:hover .overlay {
   opacity: 1;
 }
 
 /* ESTILO DO CONTATO */
 
-section.formulario{
+section.formulario {
   padding: 80px 4%;
 }
 
-form{
+form {
   max-width: 500px;
   margin: 0 auto;
   display: flex;
@@ -281,7 +282,8 @@ form{
   margin-top: 40px;
 }
 
-form input, form textarea{
+form input,
+form textarea {
   width: 100%;
   background-color: #cacaca73;
   border: 0;
@@ -292,53 +294,53 @@ form input, form textarea{
   font-size: 18px;
 }
 
-form textarea{
+form textarea {
   resize: none;
   max-height: 200px;
 }
 
-form .btn-enviar{
+form .btn-enviar {
   margin-top: 20px;
   text-align: center;
 }
 
-form .btn-enviar input[type="submit"]{
+form .btn-enviar input[type="submit"] {
   width: 120px;
   padding: 12px 0;
   background-color: #fdd803;
   color: #000000;
   font-weight: 700;
   cursor: pointer;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 /* ESTILO DO RODAPÉ */
 
-footer{
+footer {
   padding: 20px 4%;
   box-shadow: 0 0 40px 10px #f8de4c36;
 }
 
-footer .flex{
+footer .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-footer .line-footer{
+footer .line-footer {
   padding: 20px 0;
 }
 
-.borda{
+.borda {
   border-top: 2px solid #fdd803;
 }
 
-footer .line-footer p i{
+footer .line-footer p i {
   color: #fdd803;
   font-size: 22px;
 }
 
-footer .line-footer p a{
+footer .line-footer p a {
   color: #000000;
   text-decoration: none;
 }
@@ -347,9 +349,9 @@ footer .line-footer p a{
   height: 165px;
   max-width: 100%;
   display: block;
-  transition: .3s;
+  transition: 0.3s;
 }
 
-.logo-footer img:hover{
+.logo-footer img:hover {
   transform: scale(1.05);
 }
