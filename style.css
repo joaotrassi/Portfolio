@@ -57,9 +57,9 @@ form .btn-enviar input:hover {
   transform: scale(1.05);
 }
 
-/* ESTILO DO CABEÇALHO */
-header {
-  padding: 40px 4%;
+header a:hover{
+    color: #134697;
+    transform: scale(1.1);
 }
 
 header > .interface {
@@ -73,11 +73,6 @@ header a {
   text-decoration: none;
   display: inline-block;
   transition: 0.2s;
-}
-
-header a:hover {
-  color: #fdd803;
-  transform: scale(1.05);
 }
 
 header nav ul {
