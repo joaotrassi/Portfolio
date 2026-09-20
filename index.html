@@ -4,10 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <!--Fim Google Fonts-->
+    <!--BOOTSTRAP ICONS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!--FIM BOOTSTRAP ICONS-->
     <title>Meu Portfólio</title>
   </head>
 
@@ -15,7 +28,7 @@
     <header>
       <div class="interface">
         <div class="logo">
-          <a href="#">
+          <a href="#inicio">
             <img src="images/logo_utfpr.png" alt="Logotipo" />
           </a>
         </div>
@@ -23,16 +36,15 @@
 
         <nav class="menu-desktop">
           <ul>
-            <li><a href="#">Sobre Mim</a></li>
-            <li><a href="#">Habilidades Técnicas</a></li>
-            <li><a href="#">Projetos Acadêmicos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#hab-tecnicas">Habilidades Técnicas</a></li>
+            <li><a href="#projetos">Projetos Acadêmicos</a></li>
           </ul>
         </nav>
         <!--Menu-->
 
         <div class="btn-contato">
-          <a href="#">
+          <a href="#contato">
             <button>Contato</button>
           </a>
         </div>
@@ -42,10 +54,225 @@
     </header>
     <!--Cabeçalho-->
 
-    <h1>João Alberto</h1>
-    <p>
-      Estudante de Ciência da Computação e aspirante a Engenheiro de Software.
-    </p>
+    <main>
+      <section class="topo-do-site" id="inicio">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1>PORTFÓLIO PROFISSIONAL<span>.</span></h1>
+              <p>
+                Site criado como atividade para a disciplina de Engenharia de
+                Software.
+              </p>
+              <p>
+                Este é o meu espaço acadêmico para registrar a minha evolução
+                como estudante. Pretendo mantê-lo atualizado a cada semestre com
+                novos conhecimentos e aprendizados mais sólidos.
+              </p>
+              <p>
+                Para informações de contato clique no botão abaixo ou acesse um
+                dos tópico no cabeçalho.
+              </p>
 
+              <div class="btn-contato">
+                <a href="#contato">
+                  <button>Entre em contato</button>
+                </a>
+              </div>
+              <!--Botão_de_contato_2-->
+            </div>
+            <!--txt-topo-site-->
+
+            <div class="img-topo-site">
+              <img src="images/meu_perfil.jpeg" alt="Foto-de-perfil" />
+            </div>
+            <!--img-topo-site-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--Interface-->
+      </section>
+      <!--Topo-do-Site-->
+
+      <section class="hab-tecnicas" id="hab-tecnicas">
+        <div class="interface">
+          <h2 class="titulo">MINHAS <span>HABILIDADES TÉCNICAS.</span></h2>
+          <div class="flex">
+            <div class="habilidades-box">
+              <i class="bi bi-mortarboard"></i>
+              <h3>Estudante de Engenharia de Software</h3>
+              <p>
+                Cursando Ciência da Computação, unindo base teorica sobre as
+                demais tecnólogias atuais e como aplicá-las na prática.
+              </p>
+            </div>
+            <!--Estudante-box-->
+
+            <div class="habilidades-box">
+              <i class="bi bi-terminal"></i>
+              <h3>Desenvolvedor Linux / Terminal</h3>
+              <p>
+                Tenho conhecimento e experiências em Administração de Sistema
+                Linux através da terminal de controle.
+              </p>
+            </div>
+            <!--Linux-box-->
+
+            <div class="habilidades-box">
+              <i class="bi bi-code-square"></i>
+              <h3>Engenheiro de Software em Formação</h3>
+              <p>
+                Meu objetivo é aprender a criar sistemas funcionais na prática, explorando APIs, 
+                frameworks e o desenvolvimento de aplicações reais.
+              </p>
+            </div>
+            <!--especialidades-box-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--Especialidades-->
+
+      <section class="sobre" id="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-sobre">
+              <img src="images/meu_perfil.jpeg" alt="meu_perfil" />
+            </div>
+            <!--img-sobre-->
+
+            <div class="txt-sobre">
+              <h2>PRAZER, <span> SOU JOÃO ALBERTO.</span></h2>
+              <p>
+                Sou estudante da faculdade UTFPR de Campo Mourão. Busco conhecer
+                e aprender mais sobre Cibersegurança e Gerenciamento de Redes,
+                na qual eu tenho admiração pela profissão. Gosto de aprender
+                coisas novas e me dedico a dar meu melhor em cada projeto que
+                realizo.
+              </p>
+              <p>
+                Já participei do Hackathon NASA Space Apps em 2025. Também sou
+                membro do DCE da faculdade, e participo nos eventos
+                relacionados.
+              </p>
+              <p>
+                Acredito que me dou bem em equipe, sou resiliente com problemas
+                imprevisíveis e reconheço o esforço dos colegas de equipe
+                em cada entrega.
+              </p>
+
+              <div class="btn-social">
+                <a href="#"
+                  ><button><i class="bi bi-instagram"></i></button
+                ></a>
+                <a href="#"
+                  ><button><i class="bi bi-github"></i></button
+                ></a>
+                <a href="#"
+                  ><button><i class="bi bi-whatsapp"></i></button
+                ></a>
+              </div>
+              <!--btn-social-->
+            </div>
+            <!--txt-sobre-->
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--Sobre-->
+
+      <section class="projetos" id="projetos">
+        <div class="interface">
+          <h2 class="titulo">MEUS <span>PROJETOS.</span></h2>
+
+          <div class="flex">
+            <div
+              class="img-port"
+              style="background-image: url(images/utfpr.jpeg)"
+            >
+              <div class="overlay">Projeto 1</div>
+            </div>
+            <div
+              class="img-port"
+              style="background-image: url(images/utfpr.jpeg)"
+            >
+              <div class="overlay">Projeto 2</div>
+            </div>
+            <div
+              class="img-port"
+              style="background-image: url(images/utfpr.jpeg)"
+            >
+              <div class="overlay">Projeto 3</div>
+            </div>
+          </div>
+          <!--flex-->
+        </div>
+        <!--interface-->
+      </section>
+      <!--meus-projetos-->
+
+      <section class="formulario" id="contato">
+        <div class="interface">
+          <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+          <form action="">
+            <input type="text" placeholder="Seu nome completo:" required />
+            <input type="text" placeholder="Seu email:" required />
+            <input type="text" placeholder="Seu celular:" />
+            <textarea
+              name=""
+              id=""
+              placeholder="Sua mensagem"
+              required
+            ></textarea>
+
+            <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
+          </form>
+        </div>
+        <!--interface-->
+      </section>
+      <!--formulario-->
+    </main>
+
+    <footer>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <div class="logo-footer">
+              <a href="#inicio"> <img src="images/logo_utfpr.png" alt="" /></a>
+            </div>
+            <!--logo-footer-->
+
+            <div class="btn-social">
+              <a href="#"
+                ><button><i class="bi bi-instagram"></i></button
+              ></a>
+              <a href="#"
+                ><button><i class="bi bi-github"></i></button
+              ></a>
+              <a href="#"
+                ><button><i class="bi bi-whatsapp"></i></button
+              ></a>
+            </div>
+            <!--btn-social-->
+          </div>
+          <!--line-footer-->
+
+          <div class="line-footer borda">
+            <p>
+              <i class="bi bi-envelope"></i>
+              <a href="mailto:joaotrassi@alunos.utfpr.edu.br"
+                >joaotrassi@alunos.utfpr.edu.br</a
+              >
+            </p>
+          </div>
+        </div>
+        <!--flex-->
+        <!--line-footer-->
+      </div>
+      <!--interface-->
+    </footer>
   </body>
 </html>
